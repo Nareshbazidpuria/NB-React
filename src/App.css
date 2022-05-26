@@ -1,38 +1,376 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* ------------------------------------------------------------ Home CSS ------------------------------------------------------------------------------- */
+
+#blankDiv {
+    height: 51.5vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content {
+    margin: 0.3rem;
+    background-color: rgb(255, 255, 255);
+    padding: 1rem;
 }
 
-.App-link {
-  color: #61dafb;
+#featured-1 {
+    /* background: url(/img/aaar.jpg) no-repeat; */
+    /* background: url(/img/featured.j g) no-repeat; */
+    background-size: cover;
+    height: 80vh;
+    box-shadow: 0 1px 2px #00000047;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.featured-1 {
+    font-family: 'Redressed', cursive;
+    position: absolute;
+    left: 135px;
+    top: 250px;
+    text-shadow: 2px 2px 3px white;
 }
+
+.featured-1 h1 {
+    font-size: 45px;
+    margin-bottom: -10px;
+}
+
+.featured-1 p {
+    font-size: 80px;
+}
+
+#additionalDiv {
+    height: 100vh;
+}
+
+/* ---------------------------------------------------------------- About CSS ---------------------------------------------------------------------- */
+ 
+/* aboutme.css */
+
+/* ---------------------------------------------------------------- Services CSS ---------------------------------------------------------------------- */
+.pbody {
+    height: 86.4vh;
+}
+
+.mph1 {
+    text-align: center;
+    padding: 10px 0;
+    font-weight: normal;
+    margin: 0 0 10px 0;
+    background-color: white;
+    box-shadow: 1px 1px 2px #00000035;
+}
+
+.nChat {
+    display: flex;
+    margin-top: 25px;
+    /* padding: 10px; */
+    align-items: center;
+    justify-content: center;
+}
+
+#nChatLogo {
+    height: 50px;
+    width: auto;
+}
+
+.nChat h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 1.5rem;
+    color: #0400bd;
+    margin: 0 0 -1px 5px;
+}
+
+.goBtn {
+    text-decoration: none;
+    margin: 0 0 0 21px;
+    border: 1px solid #ff0076;
+    border-radius: 20px;
+    padding: 2px 17px;
+    background-color: white;
+    animation-name: changeColor;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes changeColor {
+    0% {
+        border: 1px solid #ff0000;
+    }
+
+    12% {
+        border: 1px solid #ff00aa;
+    }
+
+    24% {
+        border: 1px solid #d400ff;
+    }
+
+    36% {
+        border: 1px solid #1900ff;
+    }
+
+    48% {
+        border: 1px solid #00f7ff;
+    }
+
+    60% {
+        border: 1px solid #00ff00;
+    }
+
+    72% {
+        border: 1px solid #c8ff00;
+    }
+
+    85% {
+        border: 1px solid #ffbb00;
+    }
+
+    100% {
+        border: 1px solid #ff5e00;
+    }
+}
+
+.goBtn:hover {
+    font-size: 18px;
+}
+
+.bestChoice {
+    display: flex;
+    padding: 1px;
+    align-items: center;
+    justify-content: center;
+    /* margin-bottom: 20px; */
+    margin: 25px 0;
+}
+
+.bcLogo {
+    margin: 0 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bc {
+    font-size: 29px;
+    letter-spacing: 4px;
+    color: rgba(15, 10, 29, 0.849);
+    font-weight: bold;
+}
+
+.pcolor {
+    color: #CD5C5C;
+}
+
+.bcLogo p {
+    font-size: 10px;
+    color: #808080;
+}
+
+.ncalc h2 {
+    font-weight: lighter;
+    margin: 0 1rem;
+}
+
+.ncalc img {
+    border-radius: 7px;
+    height: 50px;
+}
+
+.Spotifycss h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    margin: 0 1.2rem;
+}
+
+.Spotifycss a{
+    margin: 0;
+}
+
+/* ---------------------------------------------------------------- Contact Us CSS ---------------------------------------------------------------------- */
+h1#FB {
+    text-align: center;
+    padding: 10px 0;
+    background-color: white;
+    box-shadow: 1px 1px 2px #00000035;
+}
+
+#contus {
+    background: none;
+    flex-wrap: wrap;
+    margin: 0 30%;
+    display: flex;
+    height: 77.4vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 8px;
+}
+
+#contus label {
+    display: flex;
+    color: #000000;
+    font-size: 14px;
+    padding: 0 0 3px 3px;
+    justify-content: left;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#contus input, textarea {
+    outline: none;
+    color: black;
+    padding: 7px 13px;
+    margin: 0 0 15px 0;
+    display: block;
+    border: white;
+    border-radius: 20px;
+    width: 500px;
+    align-items: center;
+}
+
+input, textarea {
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
+    resize: none;
+}
+
+.btn {
+    font-family: 'Acme', sans-serif;
+    margin: 2% 0 0 0%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 7px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+}
+
+input:hover, textarea:hover, .btn:hover {
+    box-shadow: 1px 1px 5px rgb(0, 0, 0), -1px -1px 5px rgb(0, 0, 0);
+}
+
+/* ---------------------------------------------------------------- Common CSS ------------------------------------------------------------------- */
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(243, 239, 232);
+    font-family: 'Acme', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+.navbar-1 {
+    font-family: 'Acme', sans-serif;
+    z-index: 5;
+    margin: auto;
+    max-width: 100%;
+    padding: 2px;
+    align-items: center;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 1px 2px #00000047;
+    flex-direction: row;
+    background-color: #ffffff;
+}
+
+#navbar-1 {
+    position: sticky;
+    top: 0px;
+}
+
+#logo-1 {
+    border-radius: 50px;
+    height: 45px;
+    width: auto;
+}
+
+.logoname-1 {
+    font-size: 20px;
+    cursor: default;
+    color: rgb(0, 0, 0);
+}
+
+#navbar-1 ul {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-1 li {
+    list-style: none;
+    display: inline-block;
+}
+
+#navbar-1 li a {
+    color: #6a6666;
+    text-decoration: none;
+    padding: 11px 12px;
+}
+
+#navbar-1 li a:hover {
+    border-bottom: 3px solid rgb(138, 136, 136);
+}
+
+.active-1 {
+    color: #000000 !important;
+    border-bottom: 3px solid rgb(0, 0, 0);
+    font-size: 18px;
+}
+
+.icons-1 {
+    position: absolute;
+    right: 10px;
+    cursor: default;
+}
+
+.icons-1 :nth-child(1) {
+    width: 19px;
+    align-items: center;
+}
+
+.icons-1 a {
+    justify-content: center;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    padding: 11px 0;
+    margin: 4px;
+}
+
+.icons-1 a i {
+    margin-left: 5px;
+}
+
+.icons-1 a:hover {
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+.icons-1 i {
+    transition: 0.4s;
+}
+
+.icons-1 a:hover>i {
+    transform: scale(1.3, 1.3);
+}
+
+footer {
+    height: 40px;
+    display: flex;
+    padding: 3px;
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0 0 0 / 69%);
+    color: white;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------- */
