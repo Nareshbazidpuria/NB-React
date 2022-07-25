@@ -1,23 +1,40 @@
 import './App.css';
+
 import Navbar from './components/Navbar';
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route
-} from "react-router-dom";
+// import {
+//   BrowserRouter as Router,
+//   Routes,
+//   Route
+// } from "react-router-dom";
 import Home from './components/Home';
 import Footer from './components/Footer';
+import About from './components/About';
+import Project from './components/Project';
+import ContactUs from './components/ContactUs';
 
 function App() {
   return (
     <>
-      <Router>
+    {/* For single page  */}
+    <Navbar />
+    <Home />
+    <About />
+    <Project />
+    <ContactUs />
+
+    {/* For rpoting */}
+      {/* <Router>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home key='home' />} />
+          <Route path="/About" element={<About key='about' />} />
+          <Route path="/Projects" element={<Project key='Projects' />} />
+          <Route path="/ContactUs" element={<ContactUs key='ContactUs' />} />
         </Routes>
         <Footer />
-      </Router>
+      </Router> */}
+
+      <Footer />
     </>
   );
 }

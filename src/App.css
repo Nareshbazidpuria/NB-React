@@ -7,8 +7,8 @@
 
 /* ------------------------------------------------------------ Home CSS ------------------------------------------------------------------------------- */
 
-#blankDiv {
-    height: 51.5vh;
+#Home {
+    padding-top: 3rem;
 }
 
 .sec {
@@ -23,10 +23,10 @@
 }
 
 #featured-1 {
-    /* background: url(/img/aaar.jpg) no-repeat; */
-    /* background: url(/img/featured.j g) no-repeat; */
+    background: url(img/aaar.jpg) no-repeat;
+    /* background: url(img/featured.jpg) no-repeat; */
     background-size: cover;
-    height: 80vh;
+    height: 34rem;
     box-shadow: 0 1px 2px #00000047;
 }
 
@@ -51,54 +51,109 @@
     height: 100vh;
 }
 
+/* #Home{
+    margin-bottom: 1rem;
+} */
+
 /* ---------------------------------------------------------------- About CSS ---------------------------------------------------------------------- */
  
 /* aboutme.css */
 
-/* ---------------------------------------------------------------- Services CSS ---------------------------------------------------------------------- */
-.pbody {
-    height: 86.4vh;
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
+
+#About{
+    padding-top: 2rem;
+}
+#sliderrrr {
+    margin-bottom: 2rem;
+    padding: .6rem 1rem;
 }
 
-.mph1 {
+#aboutMe{
+    font-family: 'League Spartan', sans-serif;
+    font-weight: bolder;
+    width: 80vw;
+    margin: auto;
+}
+.abtMe{
     text-align: center;
-    padding: 10px 0;
-    font-weight: normal;
-    margin: 0 0 10px 0;
-    background-color: white;
-    box-shadow: 1px 1px 2px #00000035;
+    cursor: default;
+    margin: .7rem;
+}
+p.abtMe{
+    font-weight: lighter;
+    font-size: 1.2rem;
+}
+h3.abtMe{
+    text-decoration: underline;
+}
+.myInfo{
+    margin: 1rem auto;
+    width: 80%;
+    font-size: 1.2rem;
+}
+table, tr, td{
+    border: 2px solid gray !important;
+    padding: .7rem 2rem;
+}
+tr:nth-child(odd){
+    background-color: #d2fdff70;
+}
+tr:nth-child(even){
+    background-color: #fbd2ff70;
 }
 
-.nChat {
+/* ---------------------------------------------------------------- Project CSS ---------------------------------------------------------------------- */
+/* .pbody {
+    height: 86.4vh;
+} */
+#Project{
+    padding-top: 4rem;
+}
+.prCardBody{
+    position: relative;
+    max-width: 80vw;
+    margin: 3rem auto;
+}
+.prCard{
+    box-shadow: 3px 3px 3px #0000008e;
+    border-radius: 2rem;
     display: flex;
-    margin-top: 25px;
-    /* padding: 10px; */
     align-items: center;
     justify-content: center;
+    position: relative;
+    background-color: #e2e2e2;
+    height: 20rem;
+    width: 50vw;
 }
-
+.left{
+    right: -30vw;
+}
 #nChatLogo {
-    height: 50px;
+    height: 10rem;
     width: auto;
 }
-
-.nChat h1 {
-    font-family: 'Architects Daughter', cursive;
-    font-size: 1.5rem;
-    color: #0400bd;
-    margin: 0 0 -1px 5px;
+.mph1 {
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px 1rem;
+}
+.prh1 {
+    text-align: center;
+    text-decoration: underline;
 }
 
 .goBtn {
+    float: right;
     text-decoration: none;
-    margin: 0 0 0 21px;
-    border: 1px solid #ff0076;
-    border-radius: 20px;
-    padding: 2px 17px;
-    background-color: white;
-    animation-name: changeColor;
-    animation-duration: 1s;
-    animation-iteration-count: infinite;
+    border: 1px solid #000000;
+    border-radius: 2rem;
+    padding: 0 25px;
+    background-color: #ffffff;
+    font-size: 1.2rem;
+    animation: changeColor 1s infinite;
+    transition: 0.2s ease-in all;
 }
 
 @keyframes changeColor {
@@ -140,7 +195,9 @@
 }
 
 .goBtn:hover {
-    font-size: 18px;
+    color: #fff;
+    background-color: #000000;
+    animation: none;
 }
 
 .bestChoice {
@@ -195,68 +252,65 @@
 }
 
 /* ---------------------------------------------------------------- Contact Us CSS ---------------------------------------------------------------------- */
-h1#FB {
-    text-align: center;
-    padding: 10px 0;
-    background-color: white;
-    box-shadow: 1px 1px 2px #00000035;
+#ContactUs{
+    padding: 2rem 0;
+    min-height: 90vh;
+    max-width: 70vw;
+    margin: 0 auto;
 }
-
-#contus {
-    background: none;
-    flex-wrap: wrap;
-    margin: 0 30%;
-    display: flex;
-    height: 77.4vh;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border-radius: 8px;
-}
-
-#contus label {
-    display: flex;
+.contContainer{
+    margin-top: 2rem;
+    background-color: #e2e2e2;
+    padding: 2rem 3rem;
     color: #000000;
-    font-size: 14px;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px #0000008e;
+}
+#ContactUs h1{
+    text-align: center;
+}
+
+label {
+    display: flex;
+    color: #2b2f43;
+    font-size: 18px;
     padding: 0 0 3px 3px;
     justify-content: left;
     font-family: 'Source Sans Pro', sans-serif;
 }
-
-#contus input, textarea {
-    outline: none;
-    color: black;
-    padding: 7px 13px;
-    margin: 0 0 15px 0;
-    display: block;
-    border: white;
-    border-radius: 20px;
-    width: 500px;
-    align-items: center;
+.mb-3{
+    border-bottom: 2px solid #838fa9;
+}
+.cusInp {
+    background: transparent;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none !important;
+    outline: none !important;
+    width: 100%;
+    padding: .2rem .5rem;
+}
+textarea {
+    resize: vertical;
 }
 
-input, textarea {
-    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.527);
-    resize: none;
-}
-
-.btn {
-    font-family: 'Acme', sans-serif;
-    margin: 2% 0 0 0%;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
+#subBtnn {
+    font-family: 'Source Sans Pro', sans-serif;
+    width: 100%;
     border: none;
     outline: none;
+    color: white;
     cursor: pointer;
-    padding: 7px 20px;
     border-radius: 20px;
-    font-size: 15px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.527);
+    font-size: 20px;
+    padding: .2rem;
+    margin-top: 1rem;
+    background-color: #3b7c7c;
+    box-shadow: 1px 1px 1px #0000005b;
+    letter-spacing: .2rem;
 }
 
-input:hover, textarea:hover, .btn:hover {
-    box-shadow: 1px 1px 5px rgb(0, 0, 0), -1px -1px 5px rgb(0, 0, 0);
+.subBtnn:hover {
+    box-shadow: 1px 1px 5px #00000093;
 }
 
 /* ---------------------------------------------------------------- Common CSS ------------------------------------------------------------------- */
@@ -323,7 +377,7 @@ body {
 
 .active-1 {
     color: #000000 !important;
-    border-bottom: 3px solid rgb(0, 0, 0);
+    border-bottom: 3px solid #000000 !important;
     font-size: 18px;
 }
 
