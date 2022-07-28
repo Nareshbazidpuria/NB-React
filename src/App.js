@@ -12,11 +12,13 @@ import About from './components/About';
 import Project from './components/Project';
 import ContactUs from './components/ContactUs';
 import Alert from './components/Alert';
+import Preloader from './components/Preloader';
 
 function App() {
   return (
     <>
     {/* For single page  */}
+    <Preloader />
     <Navbar />
     <Home />
     <About />

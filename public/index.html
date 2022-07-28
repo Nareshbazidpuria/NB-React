@@ -34,9 +34,10 @@
     let navOpt;
     let pageSec;
     function onloadFunk() {
+      prelaoder = document.querySelector('.preloader');
+      prelaoder.style.display = 'none'
       navOpt = document.querySelectorAll('.navOpt');
       pageSec = document.querySelectorAll('.pageSec');
-      
       activeMenu();        
     }
 

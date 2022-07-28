@@ -3,11 +3,11 @@ import emailjs from 'emailjs-com';
 
 const onSub = (e) => {
   e.preventDefault();
-  
+
   document.querySelector('.thx4urfdbk').style.display = 'flex';
   setTimeout(() => {
     document.querySelector('.thx4urfdbk').style.display = 'none';        
-  }, 2000);
+  }, 3000);
 
   emailjs.sendForm('service_j2z91ht', 'template_l1uk1sj', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
     emailjs.sendForm('service_j2z91ht', 'template_sm1z9wb', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
