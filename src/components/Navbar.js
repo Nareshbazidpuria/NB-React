@@ -7,8 +7,8 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar-1 position-fixed fixed-top" id="navbar-1">
-                <img className="nls-1" id="logo-1" src={logo} alt="Naresh Bazidpuria" /><span id="logoname-1"
-                    className="logoname-1 nlns-1">&nbsp;&nbsp;Naresh Bazidpuria&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                <img className="nls-1" id="logo-1" src={logo} alt="Naresh Bazidpuria" />
+                <a href="#Home"><span id="logoname-1" className="logoname-1 nlns-1">&nbsp;&nbsp;Naresh Bazidpuria&nbsp;&nbsp;&nbsp;&nbsp;</span></a>
                 <ul>
                     <li><a className='navOpt' href="#Home">Home</a></li>
                     <li><a className='navOpt' href="#About">About</a></li>

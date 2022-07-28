@@ -11,6 +11,7 @@ import Footer from './components/Footer';
 import About from './components/About';
 import Project from './components/Project';
 import ContactUs from './components/ContactUs';
+import Alert from './components/Alert';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <About />
     <Project />
     <ContactUs />
+    <Alert />
 
     {/* For rpoting */}
       {/* <Router>
