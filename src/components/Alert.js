@@ -4,7 +4,8 @@ const Alert = () => {
   return (
     <div className='thx4urfdbk'>
         <img className='tfyf' src="/imgs/tfyf.png" alt="" />
-        <h2>Thanks for Your Feedback</h2>
+        <h2>Thanks for contacting us.</h2>
+        <p>We'll reply soon.</p>
     </div>
   )
 }

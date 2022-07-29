@@ -12,20 +12,8 @@
     padding-top: 3rem;
 }
 
-.sec {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-}
-
-.content {
-    margin: 0.3rem;
-    background-color: rgb(255, 255, 255);
-    padding: 1rem;
-}
-
 #featured-1 {
     background: url(img/aaar.jpg) no-repeat;
-    /* background: url(img/featured.jpg) no-repeat; */
     background-size: cover;
     height: 34rem;
     box-shadow: 0 1px 2px #00000047;
@@ -67,6 +55,7 @@
     text-align: center;
     cursor: default;
     margin: .7rem;
+    font-weight: bold;
 }
 p.abtMe{
     font-weight: lighter;
@@ -108,7 +97,7 @@ tr:nth-child(even){
     justify-content: center;
     position: relative;
     background-color: #e2e2e2;
-    height: 20rem;
+    height: calc(50vw/2);
     width: 50vw;
 }
 .left{
@@ -126,6 +115,7 @@ tr:nth-child(even){
 }
 .prh1 {
     text-align: center;
+    font-weight: bold;
 }
 .goBtn {
     font-family: 'Source Sans Pro', sans-serif;
@@ -183,57 +173,6 @@ tr:nth-child(even){
     animation: none;
 }
 
-.bestChoice {
-    display: flex;
-    padding: 1px;
-    align-items: center;
-    justify-content: center;
-    /* margin-bottom: 20px; */
-    margin: 25px 0;
-}
-
-.bcLogo {
-    margin: 0 5px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-
-.bc {
-    font-size: 29px;
-    letter-spacing: 4px;
-    color: rgba(15, 10, 29, 0.849);
-    font-weight: bold;
-}
-
-.pcolor {
-    color: #CD5C5C;
-}
-
-.bcLogo p {
-    font-size: 10px;
-    color: #808080;
-}
-
-.ncalc h2 {
-    font-weight: lighter;
-    margin: 0 1rem;
-}
-
-.ncalc img {
-    border-radius: 7px;
-    height: 50px;
-}
-
-.Spotifycss h2{
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.4rem;
-    margin: 0 1.2rem;
-}
-
-.Spotifycss a{
-    margin: 0;
-}
-
 /* -------------------------------------------------------- Contact Us CSS ------------------------------------------------------------ */
 #ContactUs{
     padding: 2rem 0;
@@ -259,14 +198,12 @@ label {
     font-size: 18px;
     padding: 0 0 3px 3px;
     justify-content: left;
-    /* font-family: 'Source Sans Pro', sans-serif; */
 }
 .mb-3{
     border-bottom: 2px solid #838fa9;
 }
 .cusInp {
     background: transparent;
-    /* font-family: 'Source Sans Pro', sans-serif; */
     border: none !important;
     outline: none !important;
     width: 100%;
@@ -277,7 +214,6 @@ textarea {
 }
 
 #subBtnn {
-    /* font-family: 'Source Sans Pro', sans-serif; */
     width: 100%;
     border: none;
     outline: none;
@@ -331,7 +267,7 @@ a{
 .navbar-1 {
     font-family: 'Acme', sans-serif;
     z-index: 5;
-    margin: auto;
+    margin: 0;
     max-width: 100%;
     padding: 2px;
     align-items: center;
@@ -432,7 +368,7 @@ footer {
     background-color: #000000b0;
     color: white;
 }
-/* -----------------------------------------------------feedback--------------------------------------------------- */
+/* -----------------------------------------------------contact message--------------------------------------------------- */
 .thx4urfdbk{
     position: fixed;
     top: 50%;
@@ -442,7 +378,7 @@ footer {
     background-color: #3b7c7c;
     color: white;
     padding: 2rem 5rem 1.3rem 5rem;
-    animation: show 1s linear 1;
+    animation: show 5s linear 1;
     display: none;
     border-radius: 1rem;
     flex-direction: column;
@@ -450,12 +386,14 @@ footer {
     align-items: center;
 }
 @keyframes show {
-    0%{top: 0;}
-    30%{top: 60%;}
-    42%{top: 40%;}
-    60%{top: 55%;}
-    80%{top: 45%;}
-    100%{top: 50%;}
+    0%{top: -50%;}
+    7.5%{top: 60%;}
+    10.5%{top: 40%;}
+    15%{top: 55%;}
+    20%{top: 45%;}
+    25%{top: 50%;}
+    95%{top: 50%;}
+    100%{top: -50%;}
 }
 .tfyf{
     height: 20vh;

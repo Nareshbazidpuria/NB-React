@@ -1,0 +1,190 @@
+@media screen and (max-width: 550px) {
+    @import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* ---------------------------------------------------- Home CSS ------------------------------------------------------------------ */
+
+    #Home {
+        padding-top: 2rem;
+    }
+
+    #featured-1 {
+        height: 22vh;
+    }
+
+    .featured-1 {
+        left: 3rem;
+        top: 7rem;
+    }
+
+    .featured-1 h1 {
+        font-size: 1.4rem;
+        margin-bottom: .2rem;
+    }
+
+    .featured-1 p {
+        font-size: 2rem;
+    }
+
+    /* -------------------------------------------------------- About CSS -------------------------------------------------------------- */
+    #About {
+        padding-top: 0;
+    }
+
+    #sliderrrr {
+        margin-bottom: 2rem;
+        padding: .6rem .4rem;
+    }
+
+    #aboutMe {
+        width: 95vw;
+    }
+
+    p.abtMe {
+        font-size: 1rem;
+    }
+
+    .myInfo {
+        width: 95%;
+        font-size: .9rem;
+    }
+
+    table, tr, td {
+        padding: .5rem 1.5rem;
+    }
+
+    /* -------------------------------------------------------- Project CSS ---------------------------------------------------------- */
+    #Project{
+        padding-top: .3rem;
+    }
+    .prCardBody {
+        max-width: 95vw;
+        margin: 1.5rem auto;
+    }
+
+    .prCard {
+        border-radius: 1.3rem;
+        height: calc(95vw/2);
+        width: 95vw;
+    }
+
+    .left {
+        right: 0vw;
+    }
+
+    #nChatLogo {
+        height: 5rem;
+    }
+
+    .mph1 {
+        font-size: 1.3rem;
+        margin: 5px 1rem;
+    }
+
+    .prCard p {
+        font-size: .9rem !important;
+        width: 50vw !important;
+        margin: 0 20px !important;
+    }
+
+    .goBtn {
+        padding: 0 15px;
+        font-size: .9rem;
+    }
+
+    /* -------------------------------------------------------- Contact Us CSS ---------------------------------------------------------- */
+
+    #ContactUs {
+        padding: 0;
+        margin-bottom: 2rem;
+        min-height: 0vh;
+        max-width: 95vw;
+    }
+
+    /* -------------------------------------------------------- Common CSS ----------------------------------------------------------- */
+
+    .preloaderGif {
+        height: 30vh;
+    }
+
+    .navbar-1 {
+        width: 100vw;
+        padding: .5rem .2rem;
+    }
+
+    #logo-1 {
+        display: none;
+    }
+
+    #navbar-1 ul {
+        display: none;
+    }
+    footer {
+        font-size: .7rem;
+    }
+
+    /* -----------------------------------------------------contact message--------------------------------------------------- */
+    .thx4urfdbk {
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        z-index: 1000;
+        transform: translate(-50%, -50%);
+        background-color: #3b7c7c;
+        color: white;
+        padding: 2rem 5rem 1.3rem 5rem;
+        animation: show 5s linear 1;
+        display: none;
+        border-radius: 1rem;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @keyframes show {
+        0% {
+            top: -50%;
+        }
+
+        7.5% {
+            top: 60%;
+        }
+
+        10.5% {
+            top: 40%;
+        }
+
+        15% {
+            top: 55%;
+        }
+
+        20% {
+            top: 45%;
+        }
+
+        25% {
+            top: 50%;
+        }
+
+        95% {
+            top: 50%;
+        }
+
+        100% {
+            top: -50%;
+        }
+    }
+
+    .tfyf {
+        height: 20vh;
+        width: 20vh;
+        border: 4px solid white;
+        border-radius: 50rem;
+        margin-bottom: 2rem;
+    }
+}
