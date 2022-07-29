@@ -1,5 +1,5 @@
 import React from 'react';
-import tick from '../img/tfyf.pg';
+import tick from '../img/tfyf.png';
 
 const Alert = () => {
   return (
