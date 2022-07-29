@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/NB-React/static/css/main.72be9a08.css",
+    "main.js": "/NB-React/static/js/main.afbdeee0.js",
+    "static/js/787.28cb0dcd.chunk.js": "/NB-React/static/js/787.28cb0dcd.chunk.js",
+    "static/media/f4.jpg": "/NB-React/static/media/f4.3854a331f5b9af4ce702.jpg",
+    "static/media/Landscape-Color.jpg": "/NB-React/static/media/Landscape-Color.59a9baaf72d66b3a8616.jpg",
+    "static/media/SE2.jpg": "/NB-React/static/media/SE2.59a9baaf72d66b3a8616.jpg",
+    "static/media/th3.jpg": "/NB-React/static/media/th3.59a9baaf72d66b3a8616.jpg",
+    "static/media/Favicon.png": "/NB-React/static/media/Favicon.87921111d4fe781b6aee.png",
+    "static/media/aaar.jpg": "/NB-React/static/media/aaar.b260c72bbe2a993cd2d2.jpg",
+    "index.html": "/NB-React/index.html",
+    "main.72be9a08.css.map": "/NB-React/static/css/main.72be9a08.css.map",
+    "main.afbdeee0.js.map": "/NB-React/static/js/main.afbdeee0.js.map",
+    "787.28cb0dcd.chunk.js.map": "/NB-React/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72be9a08.css",
+    "static/js/main.afbdeee0.js"
+  ]
+}
