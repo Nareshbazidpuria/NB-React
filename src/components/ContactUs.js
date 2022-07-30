@@ -36,7 +36,7 @@ const ContactUs = () => {
           </div>
           <div className="mb-3">
             <label htmlFor="phone" className="form-label">Phone</label>
-            <input type="phone" className="cusInp" id="phone" name='phone' aria-describedby="emailHelp" required />
+            <input type="number" className="cusInp" id="phone" name='phone' aria-describedby="emailHelp" minLength={10} required />
           </div>
           <div className="mb-3">
             <label htmlFor="feedback" className="form-label">Drop Your Message Here</label>
