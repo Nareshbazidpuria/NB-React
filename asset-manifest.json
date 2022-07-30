@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NB-React/static/css/main.f293d79a.css",
-    "main.js": "/NB-React/static/js/main.f1010ddb.js",
+    "main.js": "/NB-React/static/js/main.02745244.js",
     "static/js/787.28cb0dcd.chunk.js": "/NB-React/static/js/787.28cb0dcd.chunk.js",
     "static/media/f4.jpg": "/NB-React/static/media/f4.3854a331f5b9af4ce702.jpg",
     "static/media/Landscape-Color.jpg": "/NB-React/static/media/Landscape-Color.59a9baaf72d66b3a8616.jpg",
@@ -15,11 +15,11 @@
     "static/media/1.png": "/NB-React/static/media/1.d7e9c86bb48917d221d7.png",
     "index.html": "/NB-React/index.html",
     "main.f293d79a.css.map": "/NB-React/static/css/main.f293d79a.css.map",
-    "main.f1010ddb.js.map": "/NB-React/static/js/main.f1010ddb.js.map",
+    "main.02745244.js.map": "/NB-React/static/js/main.02745244.js.map",
     "787.28cb0dcd.chunk.js.map": "/NB-React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f293d79a.css",
-    "static/js/main.f1010ddb.js"
+    "static/js/main.02745244.js"
   ]
 }
