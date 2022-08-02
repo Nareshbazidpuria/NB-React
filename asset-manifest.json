@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/NB-React/static/css/main.f293d79a.css",
+    "main.css": "/NB-React/static/css/main.214ad447.css",
     "main.js": "/NB-React/static/js/main.02745244.js",
     "static/js/787.28cb0dcd.chunk.js": "/NB-React/static/js/787.28cb0dcd.chunk.js",
     "static/media/f4.jpg": "/NB-React/static/media/f4.3854a331f5b9af4ce702.jpg",
@@ -14,12 +14,12 @@
     "static/media/tfyf.png": "/NB-React/static/media/tfyf.e9f190ff60973ba69a7c.png",
     "static/media/1.png": "/NB-React/static/media/1.d7e9c86bb48917d221d7.png",
     "index.html": "/NB-React/index.html",
-    "main.f293d79a.css.map": "/NB-React/static/css/main.f293d79a.css.map",
+    "main.214ad447.css.map": "/NB-React/static/css/main.214ad447.css.map",
     "main.02745244.js.map": "/NB-React/static/js/main.02745244.js.map",
     "787.28cb0dcd.chunk.js.map": "/NB-React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f293d79a.css",
+    "static/css/main.214ad447.css",
     "static/js/main.02745244.js"
   ]
 }
