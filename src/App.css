@@ -241,7 +241,7 @@ textarea {
     height: 100vh;
     width: 100vw;
     background-color: #fff;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
