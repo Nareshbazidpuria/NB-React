@@ -48,7 +48,7 @@ const About = () => {
 
             <div id="aboutMe">
                 <h1 className="abtMe">About Me</h1>
-                <p className="abtMe">Hi, I'm <strong>Naresh Kumar</strong>, and I am 21 years old ( in 2022). I am from <strong>Bazidpur Kattian Wali</strong>, Punjab.  I have done my schooling from PSEB board and I am currently in my 3rd year persuing B.Tech. My hobbies are playing video games ( <strong>Free Fire</strong> ) and listening to music. My strength is that I can adapt quickly to any environment. My goal is to hard work for my company, not for any position. And my family have 5 members, my mother, my two sisters, my brother and me.
+                <p className="abtMe"><p className='ldquo'>&ldquo;</p> Hi, I'm <strong>Naresh Kumar</strong>.I'm a <strong>Developer</strong>. My strength is that I can adapt quickly to any environment. My goal is to hard work for my company, not for any position.
                 </p>
                 <h3 className="abtMe">Personal Information</h3>
                 <table className="myInfo">
@@ -63,7 +63,7 @@ const About = () => {
                         </tr>
                         <tr>
                             <td>Date of Birth</td>
-                            <td>15 February, 2001</td>
+                            <td>20 January, 2001</td>
                         </tr>
                         <tr>
                             <td>Birth Place</td>

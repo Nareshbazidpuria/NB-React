@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Redressed&family=Roboto:wght@300&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Architects+Daughter&family=Caveat&family=IBM+Plex+Sans+Thai+Looped&family=Indie+Flower&family=Josefin+Sans&family=Jost&family=League+Spartan:wght@300&family=Marhey&family=Montserrat&family=Redressed&family=Roboto:wght@300;500;900&family=Satisfy&family=Source+Sans+Pro&family=Unna&display=swap');
+
 
 * {
     margin: 0;
     padding: 0;
 }
 
-/* ---------------------------------------------------- Home CSS ------------------------------------------------------------------ */
+/* ---------------------------------------------------- Home CSS ----------------------------------------------- */
 
 #Home {
     padding-top: 3rem;
@@ -20,11 +22,12 @@
 }
 
 .featured-1 {
-    font-family: 'Redressed', cursive;
+    font-family: 'Marhey', cursive;
     position: absolute;
     left: 135px;
     top: 250px;
     text-shadow: 2px 2px 3px white;
+    color: #3b7c7c;
 }
 
 .featured-1 h1 {
@@ -36,7 +39,7 @@
     font-size: 80px;
 }
 
-/* -------------------------------------------------------- About CSS -------------------------------------------------------------- */
+/* ---------------------------------------- About CSS ---------------------------------------------------- */
 #About{
     padding-top: 2rem;
 }
@@ -56,6 +59,14 @@
     cursor: default;
     margin: .7rem;
     font-weight: bold;
+}
+p.ldquo {
+    display: inline;
+    font-size: 300%;
+    position: relative;
+    top: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #3b7c7c;
 }
 p.abtMe{
     font-weight: lighter;
@@ -80,7 +91,7 @@ tr:nth-child(even){
     background-color: #fbd2ff70;
 }
 
-/* -------------------------------------------------------- Project CSS ---------------------------------------------------------- */
+/* -------------------------------------------------------- Project CSS -------------------------------------------- */
 #Project{
     padding-top: 4rem;
 }
@@ -118,62 +129,24 @@ tr:nth-child(even){
     font-weight: bold;
 }
 .goBtn {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'League Spartan', sans-serif;
     float: right;
     text-decoration: none;
-    border: 1px solid #000000;
+    border: 2px solid #3b7c7c;
     border-radius: 2rem;
-    padding: 0 25px;
-    background-color: #ffffff;
+    padding: .2rem 1.3rem .05rem;
+    background-color: #3b7c7c;
+    color: #fff;
     font-size: 1.2rem;
-    animation: changeColor 1s infinite;
-    transition: 0.2s ease-in all;
-}
-@keyframes changeColor {
-    0% {
-        border: 1px solid #ff0000;
-    }
-
-    12% {
-        border: 1px solid #ff00aa;
-    }
-
-    24% {
-        border: 1px solid #d400ff;
-    }
-
-    36% {
-        border: 1px solid #1900ff;
-    }
-
-    48% {
-        border: 1px solid #00f7ff;
-    }
-
-    60% {
-        border: 1px solid #00ff00;
-    }
-
-    72% {
-        border: 1px solid #c8ff00;
-    }
-
-    85% {
-        border: 1px solid #ffbb00;
-    }
-
-    100% {
-        border: 1px solid #ff5e00;
-    }
 }
 
 .goBtn:hover {
-    color: #fff;
-    background-color: #000000;
+    color: #3b7c7c;
+    background-color: #fff;
     animation: none;
 }
 
-/* -------------------------------------------------------- Contact Us CSS ------------------------------------------------------------ */
+/* ---------------------------------------- Contact Us CSS ---------------------------------------------- */
 #ContactUs{
     padding: 2rem 0;
     min-height: 90vh;
@@ -232,7 +205,7 @@ textarea {
     box-shadow: 1px 1px 5px #00000093;
 }
 
-/* --------------------------------------------------------- Common CSS ------------------------------------------------------ */
+/* ------------------------------------------------- Common CSS -------------------------------------------------- */
 .preloader{
     position: fixed;
     top: 0;
@@ -287,6 +260,8 @@ a{
     border-radius: 50px;
     height: 45px;
     width: auto;
+    border: 2px solid #3b7c7c;
+    margin: 0 .3rem;
 }
 
 .logoname-1 {
@@ -306,7 +281,7 @@ a{
 }
 
 #navbar-1 li a {
-    color: #6a6666;
+    color: #3b7c7c;
     text-decoration: none;
     padding: 11px 12px;
 }
@@ -317,8 +292,8 @@ a{
 }
 
 .active-1 {
-    color: #000000 !important;
-    border-bottom: 3px solid #000000 !important;
+    color: #3b7c7c !important;
+    border-bottom: 3px solid #3b7c7c !important;
     font-size: 18px;
     padding: 11px 12px !important;
 }
