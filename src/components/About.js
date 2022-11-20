@@ -48,7 +48,7 @@ const About = () => {
 
             <div id="aboutMe">
                 <h1 className="abtMe">About Me</h1>
-                <p className="abtMe"><p className='ldquo'>&ldquo;</p> Hi, I'm <strong>Naresh Kumar</strong>.I'm a <strong>Developer</strong>. My strength is that I can adapt quickly to any environment. My goal is to hard work for my company, not for any position.
+                <p className="abtMe">Hi, I'm <strong>Naresh Kumar</strong>.I'm a <strong>Developer</strong>. My strength is that I can adapt quickly to any environment. My goal is to hard work for my company, not for any position.
                 </p>
                 <h3 className="abtMe">Personal Information</h3>
                 <table className="myInfo">

@@ -60,14 +60,7 @@
     margin: .7rem;
     font-weight: bold;
 }
-p.ldquo {
-    display: inline;
-    font-size: 300%;
-    position: relative;
-    top: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #3b7c7c;
-}
+
 p.abtMe{
     font-weight: lighter;
     font-size: 1.2rem;
