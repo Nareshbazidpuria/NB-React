@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NB-React/static/css/main.dc033edd.css",
-    "main.js": "/NB-React/static/js/main.ad6f5dac.js",
+    "main.css": "/NB-React/static/css/main.195e97d7.css",
+    "main.js": "/NB-React/static/js/main.6c1f1722.js",
     "static/js/787.28cb0dcd.chunk.js": "/NB-React/static/js/787.28cb0dcd.chunk.js",
     "static/media/f4.jpg": "/NB-React/static/media/f4.3854a331f5b9af4ce702.jpg",
     "static/media/Landscape-Color.jpg": "/NB-React/static/media/Landscape-Color.59a9baaf72d66b3a8616.jpg",
@@ -14,12 +14,12 @@
     "static/media/tfyf.png": "/NB-React/static/media/tfyf.e9f190ff60973ba69a7c.png",
     "static/media/1.png": "/NB-React/static/media/1.d7e9c86bb48917d221d7.png",
     "index.html": "/NB-React/index.html",
-    "main.dc033edd.css.map": "/NB-React/static/css/main.dc033edd.css.map",
-    "main.ad6f5dac.js.map": "/NB-React/static/js/main.ad6f5dac.js.map",
+    "main.195e97d7.css.map": "/NB-React/static/css/main.195e97d7.css.map",
+    "main.6c1f1722.js.map": "/NB-React/static/js/main.6c1f1722.js.map",
     "787.28cb0dcd.chunk.js.map": "/NB-React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dc033edd.css",
-    "static/js/main.ad6f5dac.js"
+    "static/css/main.195e97d7.css",
+    "static/js/main.6c1f1722.js"
   ]
 }
