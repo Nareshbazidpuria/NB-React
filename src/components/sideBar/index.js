@@ -7,6 +7,8 @@ import Home from '../homE';
 import Footer from '../footeR';
 import ContactUs from '../contactUs';
 import Navbar from '../navigationBar';
+import About from '../abouT';
+import Projects from '../projectS';
 function getItem(label, key, icon) {
   return {
     key,
@@ -60,6 +62,8 @@ const Sidebar = () => {
         />
       </div>
       <Home width={collapsed ? '80px' : '256px'} />
+      <About width={collapsed ? '80px' : '256px'} />
+      <Projects width={collapsed ? '80px' : '256px'} />
       <ContactUs width={collapsed ? '80px' : '256px'} />
       <Footer width={collapsed ? '80px' : '256px'} />
     </>

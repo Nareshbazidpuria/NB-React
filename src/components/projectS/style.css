@@ -1,0 +1,49 @@
+#projects{
+  position: relative;
+  padding: 5rem 1rem 1rem 1rem;
+  transition: all .3s;
+  box-shadow: 2px 2px 2px #00000083;
+  overflow: hidden;
+}
+.prCardBody{
+  position: relative;
+  width: 90%;
+  margin: 2rem auto;
+}
+.prCard{
+  box-shadow: 3px 3px 3px #0000008e;
+  border-radius: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: #e2e2e2;
+  height: calc(50vw/2);
+  width: 50vw;
+}
+.prh1 {
+  text-align: center;
+}
+#nChatLogo {
+  height: 10rem;
+  width: auto;
+}
+.mph1 {
+  font-size: 2rem;
+  text-align: center;
+  margin: 10px 1rem;
+}
+.goBtn {
+  float: right;
+  text-decoration: none;
+  border: 2px solid #3b7c7c;
+  border-radius: 2rem;
+  padding: .2rem 1rem;
+  background-color: #3b7c7c;
+  color: #fff;
+  font-size: 1.2rem;
+}
+.goBtn:hover {
+  color: #3b7c7c;
+  background-color: #fff;
+}
