@@ -1,0 +1,24 @@
+.navbar{
+  width: calc(100vw - 78px);
+  float: right;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.411);
+  display: flex;
+  justify-content: end;
+  z-index: -1;
+}
+.navbar span{
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.logo{
+  border-radius: 50px;
+  height: 50px;
+  width: auto;
+  border: 2px solid #000000b0;
+  margin: 0 1rem;
+  cursor: pointer;
+}

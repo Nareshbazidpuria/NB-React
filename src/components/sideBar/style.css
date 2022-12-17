@@ -1,0 +1,27 @@
+.menuBtn{
+  margin: .3rem;
+  height: 3.5rem;
+  padding: 1rem 1.5rem;
+  background-color: #fff;
+  box-shadow: none;
+  color: #000;
+}
+.menuBtn:hover{
+  background-color: #bae0ff !important;
+}
+.menuBtnIcon{
+  height: 20px;
+}
+.sidebar{
+  width: 256px;
+  position: fixed;
+}
+.menu{
+  height: 100vh !important;
+  box-shadow: 2px 2px 2px #0000005e !important;
+  background-color: #fff;
+  z-index: 10;
+}
+.ant-menu-item-selected{
+  /* background-color: #000 !important; */
+}
