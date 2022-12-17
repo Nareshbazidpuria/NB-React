@@ -1,0 +1,58 @@
+#contactUs{
+  padding: 3rem;
+  min-height: 90vh;
+  transition: all .3s;
+  position: relative;
+}
+.contContainer{
+  width: 90%;
+  margin: 2rem auto 0 auto;
+  background-color: #e2e2e2;
+  padding: 2rem 3rem;
+  color: #000000;
+  border-radius: 1rem;
+  box-shadow: 3px 3px 3px #0000008e;
+}
+#contactUs h1{
+  text-align: center;
+}
+
+label {
+  display: flex;
+  color: #2b2f43;
+  font-size: 18px;
+  padding: 0 0 3px 3px;
+  justify-content: left;
+}
+.mb-3{
+  border-bottom: 2px solid #838fa9;
+}
+.cusInp {
+  background: transparent;
+  border: none !important;
+  outline: none !important;
+  width: 100%;
+  padding: .2rem .5rem;
+}
+textarea {
+  resize: vertical;
+}
+
+#subBtnn {
+  width: 100%;
+  border: 2px solid #3b7c7c;
+  outline: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: .2rem;
+  margin-top: 1rem;
+  background-color: #3b7c7c;
+  letter-spacing: .2rem;
+}
+
+#subBtnn:hover {
+  background-color: #fff;
+  color: #3b7c7c;
+}

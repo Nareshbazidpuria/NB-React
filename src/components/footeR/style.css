@@ -1,13 +1,14 @@
 .footer{
   position: relative;
   padding: 1rem;
-  transition: all .4s;
+  transition: all .3s;
   background-color: #3b7c7c;
   color: #fff;
   display: flex;
   align-items: center;
   justify-content: space-around;
   text-align: center;
+  height: 10rem;
 }
 .footer span{
   font-size: 1.4rem;
@@ -20,4 +21,7 @@
 .social a:hover > i{
   transform: scale(1.5);
   transition: all .3s;
+}
+.links{
+  margin: 1rem 0;
 }

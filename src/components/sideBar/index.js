@@ -5,6 +5,8 @@ import menuBtnC from '../../img/munu-c.png';
 import { Button, Menu, Tooltip } from 'antd';
 import Home from '../homE';
 import Footer from '../footeR';
+import ContactUs from '../contactUs';
+import Navbar from '../navigationBar';
 function getItem(label, key, icon) {
   return {
     key,
@@ -35,6 +37,7 @@ const Sidebar = () => {
   };
   return (
     <>
+      <Navbar width={collapsed ? '78px' : '254px'} />
       <div className='sidebar'>
         <Tooltip title="Menu">
           <Button
@@ -57,6 +60,7 @@ const Sidebar = () => {
         />
       </div>
       <Home width={collapsed ? '80px' : '256px'} />
+      <ContactUs width={collapsed ? '80px' : '256px'} />
       <Footer width={collapsed ? '80px' : '256px'} />
     </>
   );
