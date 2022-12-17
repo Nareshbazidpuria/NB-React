@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './style.css';
 import menuBtnO from '../../img/munu-o.png';
 import menuBtnC from '../../img/munu-c.png';
-import { Button, Menu } from 'antd';
+import { Button, Menu, Tooltip } from 'antd';
 import Home from '../homE';
+import Footer from '../footeR';
 function getItem(label, key, icon) {
   return {
     key,
@@ -28,10 +29,6 @@ const Sidebar = () => {
     setCollapsed(!collapsed);
   };
   const navigate = (e) => {
-    // let menuuuu = document.getElementsByClassName('menu')
-    // Array.from(menuuuu[0]).forEach(element => {
-      // console.log(menuuuu[0].children);
-    // });
     let a = document.createElement('a')
     a.setAttribute('href', e.key)
     a.click()
@@ -39,16 +36,15 @@ const Sidebar = () => {
   return (
     <>
       <div className='sidebar'>
-        <Button
-          type="primary"
-          onClick={toggleCollapsed}
-          // style={{
-          //   marginBottom: 16,
-          // }}
-          className='menuBtn'
-        >
-          {collapsed ? <img className='menuBtnIcon' src={menuBtnC} alt="" /> : <img className='menuBtnIcon' src={menuBtnO} alt="" />}
-        </Button>
+        <Tooltip title="Menu">
+          <Button
+            type="primary"
+            onClick={toggleCollapsed}
+            className='menuBtn'
+          >
+            {collapsed ? <img className='menuBtnIcon' src={menuBtnC} alt="" /> : <img className='menuBtnIcon' src={menuBtnO} alt="" />}
+          </Button>
+        </Tooltip>
         <Menu
           defaultSelectedKeys={['1']}
           defaultOpenKeys={['sub1']}
@@ -61,6 +57,7 @@ const Sidebar = () => {
         />
       </div>
       <Home width={collapsed ? '80px' : '256px'} />
+      <Footer width={collapsed ? '80px' : '256px'} />
     </>
   );
 };
