@@ -34,6 +34,7 @@ const Navbar = (props) => {
           <p><strong>Email:</strong> nareshbazipuria.com@gmail.com</p>
           <p><strong>DOB:</strong> 20 January, 2001</p>
           <p><strong>Contact:</strong> +916239197795</p>
+          <p><strong>Linkedin:</strong> <a target='_blank' href="https://www.linkedin.com/in/naresh-bazidpuria-a8a45a1a2/">Naresh Bazidpuria</a></p>
         </div>
       </Modal>
     </div>
