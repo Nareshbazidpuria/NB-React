@@ -6,24 +6,48 @@ import "react-toastify/dist/ReactToastify.css";
 
 const onSub = (e) => {
   e.preventDefault();
-  toast.success("Thanks for contacting us, We'll reply soon.", {
-    position: "top-center",
-    autoClose: 3000,
-    hideProgressBar: false,
-    closeOnClick: true,
-    pauseOnHover: true,
-    draggable: true,
-    progress: undefined,
-    theme: "light",
-  }); 
   emailjs.sendForm('service_j2z91ht', 'template_l1uk1sj', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
     emailjs.sendForm('service_j2z91ht', 'template_sm1z9wb', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
       let inputs = document.querySelectorAll('.cusInp');
       inputs.forEach(element => {
         element.value = '';
       });
-    }).catch(err => console.log(err));
-  }).catch(err => console.log(err));
+      toast.success("Thanks for contacting us, We'll reply soon.", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    }).catch(err => {
+      console.log(err)
+      toast.error("Something went wrong! Please try again!", {
+        position: "top-center",
+        autoClose: 3000,
+        hideProgressBar: false,
+        closeOnClick: true,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+      });
+    });
+  }).catch(err => {
+    console.log(err)
+    toast.error("Something went wrong! Please try again!", {
+      position: "top-center",
+      autoClose: 3000,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
+    });
+  });
 }
 
 const ContactUs = (props) => {

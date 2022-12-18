@@ -52,5 +52,10 @@ h3{
 .download ion-icon{
   color: #fff;
   font-size: 1.5rem !important;
-  margin: 0 1rem;
+}
+.download Button{
+  color: #fff;
+  font-size: 1rem !important;
+  font-weight: bolder;
+  margin: 0 1rem 0 0;
 }
