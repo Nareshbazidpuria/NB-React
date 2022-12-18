@@ -30,7 +30,7 @@ const items = [
   getItem('CONTACT US', '#contactUs', <ion-icon name="mail-outline" style={styleObj}></ion-icon>),
 ];
 const Sidebar = () => {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(true);
   const [active, setActive] = useState('#home');
   const toggleCollapsed = () => {
     setCollapsed(!collapsed);
