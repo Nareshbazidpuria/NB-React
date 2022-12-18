@@ -9,15 +9,20 @@ const Skill = (props) => {
       <Space wrap>
         <Progress type="circle" percent={value} width={200} strokeColor='#3b7c7c' />
       </Space>
-      {src.key ? <div className='d-flex align-items-center'>
-        <img src={src.src} alt="" />
-        <span>{skill}</span>
-      </div> :
-        <div className='d-flex align-items-center'>
-          <img src={src.src.Html} alt="" />
-          <span>{skill.HTML} /</span>
-          <img src={src.src.Css} alt="" />
-          <span>{skill.CSS}</span>
+      {src.key
+        ? <div className='d-flex align-items-center'>
+          <img src={src.src} alt="" />
+          <span>{skill}</span>
+        </div>
+        : <div className='d-flex align-items-center flex-column'>
+          <div className='d-flex align-items-center'>
+            <img src={src.src.Html} alt="" />
+            <span>{skill.HTML} /</span>
+          </div>
+          <div className='d-flex align-items-center'>
+            <img src={src.src.Css} alt="" />
+            <span>{skill.CSS}</span>
+          </div>
         </div>}
     </div>
   )

@@ -22,6 +22,7 @@ const Footer = (props) => {
           <a href="https://twitter.com/nareshk84936106" target="_blank" rel="noreferrer"><i className="fa fa-twitter" ></i></a>
           <a href="https://www.youtube.com/c/NareshBazidpuria" target="_blank" rel="noreferrer"><i className="fa fa-youtube" ></i></a>
           <a href='mailto:nareshbazidpuria.com@gmail.com'><i className="fa fa-envelope" ></i></a>
+          <a href='https://www.linkedin.com/in/naresh-bazidpuria-a8a45a1a2/' target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i></a>
         </div>
       </div>
       <div className="copyright">
