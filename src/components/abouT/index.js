@@ -6,10 +6,6 @@ import { Carousel } from 'antd';
 const About = (props) => {
   const contentStyle = {
     height: props.width === '80px' ? '22rem' : '19rem',
-    color: '#fff',
-    lineHeight: '160px',
-    textAlign: 'center',
-    background: '#364d79',
   };
 
   return (
@@ -20,32 +16,32 @@ const About = (props) => {
     >
       <Carousel autoplay>
         <div>
-          <h3 style={contentStyle}>
-            <img src={img1} alt="" style={{
+          <h3 style={contentStyle} className='crouselCover'>
+            <img className='crouselImg' src={img1} alt="" style={{
               left: props.width,
               width: `calc(100vw - ${props.width})`
             }} />
           </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>
-            <img src={img1} alt="" style={{
+          <h3 style={contentStyle} className='crouselCover'>
+            <img className='crouselImg' src={img1} alt="" style={{
               left: props.width,
               width: `calc(100vw - ${props.width})`
             }} />
           </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>
-            <img src={img1} alt="" style={{
+          <h3 style={contentStyle} className='crouselCover'>
+            <img className='crouselImg' src={img1} alt="" style={{
               left: props.width,
               width: `calc(100vw - ${props.width})`
             }} />
           </h3>
         </div>
         <div>
-          <h3 style={contentStyle}>
-            <img src={img1} alt="" style={{
+          <h3 style={contentStyle} className='crouselCover'>
+            <img className='crouselImg' src={img1} alt="" style={{
               left: props.width,
               width: `calc(100vw - ${props.width})`
             }} />

@@ -56,3 +56,15 @@ textarea {
   background-color: #fff;
   color: #3b7c7c;
 }
+
+@media screen and (max-width: 550px) {
+  #contactUs{
+    padding: 1rem;
+    left: 0 !important;
+    width: 100vw !important;
+    min-height: 50vh;
+  }
+  .contContainer{
+    width: 100%;
+  }
+}

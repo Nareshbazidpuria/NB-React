@@ -17,6 +17,12 @@ p.abtMe{
   font-weight: 400;
   font-size: 1.2rem;
 }
+.crouselCover{
+  color: '#fff';
+  line-height: '160px';
+  text-align: 'center';
+  background-color: '#364d79';
+}
 h3.abtMe{
   text-decoration: underline;
 }
@@ -31,4 +37,32 @@ table, tr, td{
 }
 tr:nth-child(odd){
   background-color: #bae0ff;
+}
+
+@media screen and (max-width: 550px) {
+  #about{
+    width: 100vw !important;
+    left: 0 !important;
+    padding: 1rem;
+  }
+  #aboutMe{
+    width: 90vw;
+  }
+  .crouselCover{
+    height: 5rem !important;
+  }
+  .crouselImg{
+    left: 0;
+    width: 100vw !important;
+  }
+  p.abtMe{
+    font-size: 1rem;
+  }
+  .myInfo{
+    width: 100%;
+    font-size: .8rem;
+  }
+  table, tr, td{
+    padding: .3rem 1rem;
+  } 
 }

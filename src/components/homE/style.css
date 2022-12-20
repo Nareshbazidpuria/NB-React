@@ -19,3 +19,17 @@
   margin-left: 10rem;
   font-family: 'Passions Conflict', cursive;
 }
+@media screen and (max-width: 550px) {
+  .home{
+    width: 100vw !important;
+    left: 0 !important;
+  }
+  .featured{
+    height: 13rem;
+    padding: 4rem 0 0 0;
+  }
+  .featured p{
+    font-size: 2rem;
+    margin-left: 2.5rem;
+  }
+}

@@ -7,7 +7,7 @@ const Skill = (props) => {
   return (
     <div className='skill d-flex flex-column align-items-center' >
       <Space wrap>
-        <Progress type="circle" percent={value} width={200} strokeColor='#3b7c7c' />
+        <Progress className='progress' type="circle" percent={value} width={ window.screen.width < 550 ? 100: 200 } strokeColor='#3b7c7c' />
       </Space>
       {src.key
         ? <div className='d-flex align-items-center'>
