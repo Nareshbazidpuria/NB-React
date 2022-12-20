@@ -1,25 +1,29 @@
 {
   "files": {
-    "main.css": "/NB-React/static/css/main.195e97d7.css",
-    "main.js": "/NB-React/static/js/main.2645d630.js",
+    "main.css": "/NB-React/static/css/main.37436dd3.css",
+    "main.js": "/NB-React/static/js/main.fd5ab52b.js",
     "static/js/787.28cb0dcd.chunk.js": "/NB-React/static/js/787.28cb0dcd.chunk.js",
-    "static/media/f4.jpg": "/NB-React/static/media/f4.3854a331f5b9af4ce702.jpg",
-    "static/media/Landscape-Color.jpg": "/NB-React/static/media/Landscape-Color.59a9baaf72d66b3a8616.jpg",
-    "static/media/SE2.jpg": "/NB-React/static/media/SE2.59a9baaf72d66b3a8616.jpg",
-    "static/media/th3.jpg": "/NB-React/static/media/th3.59a9baaf72d66b3a8616.jpg",
-    "static/media/aaar.jpg": "/NB-React/static/media/aaar.b260c72bbe2a993cd2d2.jpg",
+    "static/media/img1.jpg": "/NB-React/static/media/img1.d324abf62386472914c8.jpg",
+    "static/media/dfe.jpg": "/NB-React/static/media/dfe.492dbae28d90db4a2d4e.jpg",
+    "static/media/react.png": "/NB-React/static/media/react.81ed438b18e24116794d.png",
     "static/media/2.png": "/NB-React/static/media/2.d215be2d726ba5c1a5f4.png",
     "static/media/Favicon.png": "/NB-React/static/media/Favicon.4f6191176fe6f33034e9.png",
+    "static/media/Resume.pdf": "/NB-React/static/media/Resume.85bd984acc38c72d33b5.pdf",
     "static/media/3.ico": "/NB-React/static/media/3.b0909942ce4c561f9adf.ico",
-    "static/media/tfyf.png": "/NB-React/static/media/tfyf.e9f190ff60973ba69a7c.png",
+    "static/media/js.png": "/NB-React/static/media/js.cde71f38f876722655c2.png",
+    "static/media/next.png": "/NB-React/static/media/next.331efda6800a28298b1b.png",
     "static/media/1.png": "/NB-React/static/media/1.d7e9c86bb48917d221d7.png",
+    "static/media/html.png": "/NB-React/static/media/html.94972f53c025a8fb7e2b.png",
+    "static/media/css.png": "/NB-React/static/media/css.c33d2b46fea4f5752f8d.png",
+    "static/media/node.png": "/NB-React/static/media/node.c52357c303ec3b476aa5.png",
     "index.html": "/NB-React/index.html",
-    "main.195e97d7.css.map": "/NB-React/static/css/main.195e97d7.css.map",
-    "main.2645d630.js.map": "/NB-React/static/js/main.2645d630.js.map",
+    "static/media/mongodb.svg": "/NB-React/static/media/mongodb.442af53f443428106f4d8dfa2562d7d4.svg",
+    "main.37436dd3.css.map": "/NB-React/static/css/main.37436dd3.css.map",
+    "main.fd5ab52b.js.map": "/NB-React/static/js/main.fd5ab52b.js.map",
     "787.28cb0dcd.chunk.js.map": "/NB-React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.195e97d7.css",
-    "static/js/main.2645d630.js"
+    "static/css/main.37436dd3.css",
+    "static/js/main.fd5ab52b.js"
   ]
 }
