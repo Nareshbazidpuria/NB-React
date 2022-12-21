@@ -1,8 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Passions+Conflict&display=swap');
+
 *{
   scroll-behavior: smooth;
 }
 ::-webkit-scrollbar {
   width: 0px;
+}
+body{
+    font-family: 'League Spartan', sans-serif;
 }
 a{
   text-decoration: none;
