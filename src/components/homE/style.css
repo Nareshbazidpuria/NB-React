@@ -23,6 +23,7 @@
   .home{
     width: 100vw !important;
     left: 0 !important;
+    padding: 4rem 0 0 0;
   }
   .featured{
     height: 13rem;
