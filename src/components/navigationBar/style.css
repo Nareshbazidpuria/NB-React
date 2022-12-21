@@ -61,4 +61,21 @@
     justify-content: start;
     flex-direction: row-reverse;
   }
+  .profileModel{
+    width: 90vw !important;
+  }
+  .profileModel .ant-modal-content{
+    padding: 2rem;
+    width: 90vw !important;
+  }
+  .profilePic{
+    height: 120px;
+  }
+  .info{
+    letter-spacing: 0;
+  }
+  .info tr, .info td,  .info table{
+    padding: .3rem .5rem;
+    font-size: .8rem;
+  }
 }
