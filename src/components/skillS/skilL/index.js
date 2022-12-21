@@ -11,16 +11,16 @@ const Skill = (props) => {
       </Space>
       {src.key
         ? <div className='d-flex align-items-center'>
-          <img src={src.src} alt="" />
+          <img  className='skillLogo' src={src.src} alt="" />
           <span>{skill}</span>
         </div>
         : <div className='d-flex align-items-center flex-column'>
           <div className='d-flex align-items-center'>
-            <img src={src.src.Html} alt="" />
+            <img  className='skillLogo' src={src.src.Html} alt="" />
             <span>{skill.HTML} /</span>
           </div>
           <div className='d-flex align-items-center'>
-            <img src={src.src.Css} alt="" />
+            <img  className='skillLogo' src={src.src.Css} alt="" />
             <span>{skill.CSS}</span>
           </div>
         </div>}
