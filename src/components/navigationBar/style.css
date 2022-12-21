@@ -25,6 +25,7 @@
   cursor: pointer;
 }
 .profileModel{
+  font-family: 'League Spartan', sans-serif;
   width: 40vw !important;
 }
 .profileModel h4{
