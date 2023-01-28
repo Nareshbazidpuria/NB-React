@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/NB-React/static/css/main.83375d0b.css",
-    "main.js": "/NB-React/static/js/main.cf00629a.js",
+    "main.css": "/NB-React/static/css/main.b34f9788.css",
+    "main.js": "/NB-React/static/js/main.1bd61532.js",
     "static/js/787.28cb0dcd.chunk.js": "/NB-React/static/js/787.28cb0dcd.chunk.js",
     "static/media/img1.jpg": "/NB-React/static/media/img1.d324abf62386472914c8.jpg",
     "static/media/dfe.jpg": "/NB-React/static/media/dfe.492dbae28d90db4a2d4e.jpg",
@@ -18,12 +18,12 @@
     "static/media/node.png": "/NB-React/static/media/node.c52357c303ec3b476aa5.png",
     "index.html": "/NB-React/index.html",
     "static/media/mongodb.svg": "/NB-React/static/media/mongodb.442af53f443428106f4d8dfa2562d7d4.svg",
-    "main.83375d0b.css.map": "/NB-React/static/css/main.83375d0b.css.map",
-    "main.cf00629a.js.map": "/NB-React/static/js/main.cf00629a.js.map",
+    "main.b34f9788.css.map": "/NB-React/static/css/main.b34f9788.css.map",
+    "main.1bd61532.js.map": "/NB-React/static/js/main.1bd61532.js.map",
     "787.28cb0dcd.chunk.js.map": "/NB-React/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.83375d0b.css",
-    "static/js/main.cf00629a.js"
+    "static/css/main.b34f9788.css",
+    "static/js/main.1bd61532.js"
   ]
 }
