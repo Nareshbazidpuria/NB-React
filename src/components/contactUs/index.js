@@ -7,6 +7,11 @@ import { Button } from 'antd';
 
 const ContactUs = (props) => {
   const [isLoading, setIsLoading] = useState(false);
+  const [phone, setPhone] = useState('');
+
+  const onChange = (e) => {
+    e.target.value.length <= 10 ? setPhone(e.target.value) : e.preventDefault()
+  }
 
   const onSub = (e) => {
     setIsLoading(true)
@@ -87,7 +92,7 @@ const ContactUs = (props) => {
             </div>
             <div className="mb-3">
               <label htmlFor="phone" className="form-label">Phone</label>
-              <input type="number" className="cusInp" id="phone" name='phone' aria-describedby="emailHelp" minLength={10} required />
+              <input type="number" className="cusInp" id="phone" name='phone' aria-describedby="emailHelp" value={phone} required onChange={e => onChange(e)} />
             </div>
             <div className="mb-3">
               <label htmlFor="feedback" className="form-label">Drop Your Message Here</label>
