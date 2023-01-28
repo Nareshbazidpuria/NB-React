@@ -39,6 +39,7 @@ textarea {
 }
 
 #subBtnn {
+  font-family: 'League Spartan', sans-serif;
   width: 100%;
   border: 2px solid #3b7c7c;
   outline: none;
@@ -46,7 +47,7 @@ textarea {
   cursor: pointer;
   border-radius: 20px;
   font-size: 20px;
-  padding: 1.1rem .2rem;
+  padding: 1rem .2rem;
   margin-top: 1rem;
   background-color: #3b7c7c;
   letter-spacing: .2rem;
