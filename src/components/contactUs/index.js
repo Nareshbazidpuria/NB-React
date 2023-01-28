@@ -1,26 +1,45 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './style.css';
 import emailjs from 'emailjs-com';
 import { toast, ToastContainer } from 'react-toastify';
 import "react-toastify/dist/ReactToastify.css";
+import { Button } from 'antd';
 
-const onSub = (e) => {
-  e.preventDefault();
-  emailjs.sendForm('service_j2z91ht', 'template_l1uk1sj', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
-    emailjs.sendForm('service_j2z91ht', 'template_sm1z9wb', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
-      let inputs = document.querySelectorAll('.cusInp');
-      inputs.forEach(element => {
-        element.value = '';
-      });
-      toast.success("Thanks for contacting us, We'll reply soon.", {
-        position: "top-center",
-        autoClose: 3000,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
+const ContactUs = (props) => {
+  const [isLoading, setIsLoading] = useState(false);
+
+  const onSub = (e) => {
+    setIsLoading(true)
+    e.preventDefault();
+    emailjs.sendForm('service_j2z91ht', 'template_l1uk1sj', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
+      emailjs.sendForm('service_j2z91ht', 'template_sm1z9wb', e.target, 'OD4pCOiLR76yUrGjo').then(res => {
+        let inputs = document.querySelectorAll('.cusInp');
+        inputs.forEach(element => {
+          element.value = '';
+        });
+        setIsLoading(false)
+        toast.success("Thanks for contacting us, We'll reply soon.", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
+      }).catch(err => {
+        console.log(err)
+        toast.error("Something went wrong! Please try again!", {
+          position: "top-center",
+          autoClose: 3000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+        });
       });
     }).catch(err => {
       console.log(err)
@@ -35,22 +54,7 @@ const onSub = (e) => {
         theme: "light",
       });
     });
-  }).catch(err => {
-    console.log(err)
-    toast.error("Something went wrong! Please try again!", {
-      position: "top-center",
-      autoClose: 3000,
-      hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
-      progress: undefined,
-      theme: "light",
-    });
-  });
-}
-
-const ContactUs = (props) => {
+  }
   return (
     <>
       <ToastContainer
@@ -89,7 +93,7 @@ const ContactUs = (props) => {
               <label htmlFor="feedback" className="form-label">Drop Your Message Here</label>
               <textarea className="cusInp" name='feedback' id="feedback" required />
             </div>
-            <button type="submit" id="subBtnn">Submit</button>
+            <Button htmlType="submit" id="subBtnn" loading={isLoading} disabled={isLoading} >{isLoading ? '' : 'Submit'}</Button>
           </form>
         </div>
       </div>

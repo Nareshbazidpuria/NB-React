@@ -46,10 +46,18 @@ textarea {
   cursor: pointer;
   border-radius: 20px;
   font-size: 20px;
-  padding: .2rem;
+  padding: 1.1rem .2rem;
   margin-top: 1rem;
   background-color: #3b7c7c;
   letter-spacing: .2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.ant-btn-loading-icon{
+  display: flex !important;
+  align-items: center !important;
 }
 
 #subBtnn:hover {

@@ -13,30 +13,17 @@ import { toast, ToastContainer } from 'react-toastify';
 import { Tooltip, Button, Space } from 'antd';
 
 const Skills = (props) => {
-  const [loadings, setLoadings] = useState([]);
-  const enterLoading = (index) => {
-    setLoadings((prevLoadings) => {
-      const newLoadings = [...prevLoadings];
-      newLoadings[index] = true;
-      return newLoadings;
+  const enterLoading = () => {
+    toast.success("CV will be downloaded", {
+      position: "top-center",
+      autoClose: 800,
+      hideProgressBar: false,
+      closeOnClick: true,
+      pauseOnHover: true,
+      draggable: true,
+      progress: undefined,
+      theme: "light",
     });
-    setTimeout(() => {
-      setLoadings((prevLoadings) => {
-        const newLoadings = [...prevLoadings];
-        newLoadings[index] = false;
-        return newLoadings;
-      });
-      toast.success("Downloaded", {
-        position: "top-center",
-        autoClose: 800,
-        hideProgressBar: false,
-        closeOnClick: true,
-        pauseOnHover: true,
-        draggable: true,
-        progress: undefined,
-        theme: "light",
-      });
-    }, 800);
   };
 
   return (
@@ -79,22 +66,23 @@ const Skills = (props) => {
         </Tooltip>
         <div className='download d-flex align-items-center'>
           <Tooltip title="View">
-            <a href={Cv} target='_blank'>
+            <a href={Cv} target='_blank' style={{
+              top: '4px',
+              position: 'relative'
+            }}>
               <ion-icon name="eye-outline"></ion-icon>
             </a>
           </Tooltip>
           <Tooltip title="Download">
-            <a href={Cv} download>
-              <Space direction="vertical">
-                <Space wrap>
-                  <Button
-                    type="success"
-                    icon={<ion-icon name="arrow-down-outline"></ion-icon>}
-                    loading={loadings[2]}
-                    onClick={() => enterLoading(2)}
-                  />
-                </Space>
-              </Space>
+            <a href={Cv} download style={{
+              top: '3px',
+              position: 'relative'
+            }}>
+              <Button
+                type="success"
+                icon={<ion-icon name="arrow-down-outline"></ion-icon>}
+                onClick={() => enterLoading()}
+              />
             </a>
           </Tooltip>
         </div>
