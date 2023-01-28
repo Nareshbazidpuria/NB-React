@@ -10,6 +10,7 @@ import Navbar from '../navigationBar';
 import About from '../abouT';
 import Projects from '../projectS';
 import Skills from '../skillS';
+import BottomNav from '../bottomNav';
 function getItem(label, key, icon) {
   return {
     key,
@@ -69,6 +70,7 @@ const Sidebar = () => {
       <Skills width={collapsed ? '80px' : '256px'} />
       <ContactUs width={collapsed ? '80px' : '256px'} />
       <Footer width={collapsed ? '80px' : '256px'} />
+      <BottomNav />
     </>
   );
 };

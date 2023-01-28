@@ -1,0 +1,34 @@
+.bottomNav {
+  display: none;
+}
+
+@media screen and (max-width: 550px) {
+  .bottomNav {
+    display: flex;
+    background-color: #3b7c7c;
+    border-top: 1px solid #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+  }
+
+  .bottomNav>a {
+    color: #fff;
+    height: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 16%;
+    transition: all .5s ease;
+    margin: 0 2%;
+  }
+
+  .active, .bottomNav>a:hover {
+    color: #3b7c7c !important;
+    background-color: #fff;
+    border-radius: 50rem;
+    height: 10vw !important;
+    position: relative;
+    bottom: 4vw;
+  }
+}

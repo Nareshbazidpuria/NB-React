@@ -33,6 +33,7 @@
     width: 100vw !important;
     height: 20rem !important;
     flex-direction: column;
+    margin-bottom: 10vw;
   }
   .social{
     border-top: 1px solid #fff;
